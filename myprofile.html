@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/myprofile.css">
+        <script type="module" src="script/myprofile.js"></script>
+        <title>DocLock - Secure your documents</title>
+    </head>
+    <body>
+        <div class="header">
+
+            <div class="left-section">
+                <div class="text-styles">Profile</div> 
+            </div>
+
+            <div class="right-section">
+                
+            </div>
+
+        </div>
+        <div class="body">             
+
+
+            <form class="form">
+                <div class="form__group">
+                  <input type="text" class="form__field" id="name" required>
+                  <label for="name" class="form__label">Name</label>
+                </div>
+                <div class="form__group">
+                  <input type="email" class="form__field" id="email" required>
+                  <label for="email" class="form__label">Email</label>
+                </div>
+                <div class="form__group">
+                  <input type="tel" class="form__field" id="phone" required>
+                  <label for="phone" class="form__label">Phone Number</label>
+                </div>
+                <div class="form__field2">
+                <span class="legend">Gender :</span>
+                    <input id="male" name="select" type="radio">
+                        <label for="male">Male</label>
+                    <input id="female" name="select" type="radio">
+                        <label for="female">Female</label>
+                </div>
+                <div class="form__field2">
+                    <label for="MoveInDate">Date of birth :</label>
+                    <input autocomplete="off" class="text" id="MoveInDate" name="MoveInDate" placeholder="DD-MM-YYYY" type="date" min="1940-12-17" max="2035-01-01" spellcheck="false">
+                </div>
+                <div class="save-button">
+                    <button class="button-21"  role="button">Save</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

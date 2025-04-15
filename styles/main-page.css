@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(-90deg, #c850c0, #4158d0);
+}
+
+.header{
+    background-color: #f2f2f2;;
+    position:absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    height:12%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.left-section{
+    width: 100px;
+}
+
+.text-styles{
+    font-family: 'Poppins', sans-serif;
+    color: #6179f0;
+    font-weight: 1000;
+    font-size: 38px;
+    padding-left: 10px;
+}
+
+.docs{
+    height: 50px;
+    width: 55px;
+    padding-right: 10px;
+}
+
+/*hoverable board
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .docs {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#4158d0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    right: 0;
+    margin-right: 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    font-family:  'Poppins', sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #c850c0;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.btn{
+    margin-top: 15%;
+    margin-left: 40%;
+    align-items: center;
+    justify-content:center;
+    border-radius: 20px;
+    height: 120px;
+    width: 250px;
+}
+
+.btn2{
+  margin-top: 5%;
+  margin-left: 40%;
+  align-items: center;
+  justify-content:center;
+  border-radius: 20px;
+  height: 120px;
+  width: 250px;
+  text-decoration: none;
+}
+
+.text{
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#4158d0;
+}
+
+.upload{
+    height: 60px;
+    width: 60px;
+}
+
+.upload2{
+  height: 60px;
+  width: 60px;
+}
+
+input{
+  display: none;
+}
